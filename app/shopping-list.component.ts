@@ -21,7 +21,7 @@ export class ItemListComponent{
         {name:"orange"},
         {name:"grapes"},
     ];
-    public selectedItem = {name: ""};
+    public selectedItem = {name: "zzzzzzzzz"};
 
     onItemClicked(listItem){
         this.selectedItem=listItem;
